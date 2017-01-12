@@ -1,0 +1,17 @@
+{
+  "name": "git-diff-glob",
+  "version": "0.1.0",
+  "description": "An easy way to get a diff using a file glob.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "diff",
+    "file",
+    "glob"
+  ],
+  "author": "Scott McKenzie",
+  "license": "MIT"
+}
