@@ -1,6 +1,6 @@
 const execSync = require('child_process').execSync
 
-function getGlobs(globs) {
+function getGlobs(globs = '') {
 	if (typeof globs === 'string') {
 		return globs.split(' ')
 	} else if (Array.isArray(globs)) {
