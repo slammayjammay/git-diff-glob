@@ -4,7 +4,7 @@ function getGlobs(globs = '') {
 	if (typeof globs === 'string') {
 		return globs.split(' ')
 	} else if (Array.isArray(globs)) {
-		return globs
+		return globs.length > 0 ? globs : ['']
 	} else {
 		throw new Error('File globs should be in the form of a space-delimiated string or array of strings.')
 	}
