@@ -1,6 +1,6 @@
 {
   "name": "git-diff-glob",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "An easy way to get a diff using a file glob.",
   "main": "lib/index.js",
   "scripts": {
