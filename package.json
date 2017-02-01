@@ -18,5 +18,8 @@
     "type": "git",
     "url": "https://github.com/slammayjammay/git-diff-glob"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "git-files": "^0.3.0"
+  }
 }
