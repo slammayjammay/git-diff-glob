@@ -11,8 +11,8 @@ function getGlobs(globs = '') {
 }
 
 /**
- * @param {string|array} globs - The list of file globs to diff
- * @return {string} - The total diff for the given files
+ * @param {string|array} globs - The list of file globs to diff.
+ * @return {string} - The total diff for the given files.
  */
 module.exports = (globs) => {
 	globs = getGlobs(globs)
