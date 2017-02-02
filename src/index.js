@@ -33,7 +33,7 @@ module.exports = (globs, options = {}) => {
 	}
 
 	for (let file of Object.keys(matchedFiles)) {
-		let fileDiff = execSync(`git -c color.diff=always diff -- *${file}*`).toString('utf8')
+		let fileDiff = execSync(`git -c color.diff=always diff -- ${file}`).toString('utf8')
 		diffs.push(fileDiff)
 	}
 
